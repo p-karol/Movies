@@ -16,5 +16,7 @@ namespace Dominio
         {
             return await genreDB.getGenreSummary();
         }
+
+
     }
 }

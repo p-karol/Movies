@@ -4,9 +4,11 @@ using System.Threading.Tasks;
 using Entidades.Model;
 using Entidades.ViewModel;
 
+//sem efeito por enquanro, erro ref circular
+
 namespace Dominio
 {
-    public interface IGenreDAO_EF
+    public interface IGenresDAO_EF
     {
         public  Task Inserir(Genre genre);
         public  Task<List<Genre>> List();
