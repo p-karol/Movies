@@ -22,9 +22,6 @@ namespace Dominio
         public async Task<List<Movie>> ListMovies()
         {
             return await moviesDB.List();
-
         }
-
-
     }
 }

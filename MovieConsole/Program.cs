@@ -16,9 +16,6 @@ namespace MovieConsole
 
         static async Task Main(String[] args)
         {
-
-            //static async Task Main(string[] args)
-            //{
                 FachadaDominio fachada = new FachadaDominio();
 
                 var relat = await fachada.getRelatorioGeneros();
@@ -40,8 +37,6 @@ namespace MovieConsole
                 {
                     Console.WriteLine("\t{0}", filme.Title);
                 }
-
-           // }
         }
 
     }
