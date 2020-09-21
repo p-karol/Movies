@@ -56,3 +56,5 @@
 /Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/MovieConsole/obj/Debug/netcoreapp3.1/MovieConsole.dll
 /Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/MovieConsole/obj/Debug/netcoreapp3.1/MovieConsole.pdb
 /Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/MovieConsole/obj/Debug/netcoreapp3.1/MovieConsole.genruntimeconfig.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/MovieConsole/bin/Debug/netcoreapp3.1/Dominio.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/MovieConsole/bin/Debug/netcoreapp3.1/Dominio.pdb
