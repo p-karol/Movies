@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/jbredow/.dotnet/store/|arch|/|tfm|",
+      "/Users/jbredow/.nuget/packages"
+    ]
+  }
+}

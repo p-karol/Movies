@@ -1,0 +1,14 @@
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/bin/Debug/netcoreapp3.1/Dominio.deps.json
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/bin/Debug/netcoreapp3.1/Dominio.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/bin/Debug/netcoreapp3.1/Dominio.pdb
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/bin/Debug/netcoreapp3.1/Entidades.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/bin/Debug/netcoreapp3.1/Persistencia.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/bin/Debug/netcoreapp3.1/Persistencia.pdb
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/bin/Debug/netcoreapp3.1/Entidades.pdb
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/obj/Debug/netcoreapp3.1/Dominio.csprojAssemblyReference.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/obj/Debug/netcoreapp3.1/Dominio.AssemblyInfoInputs.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/obj/Debug/netcoreapp3.1/Dominio.AssemblyInfo.cs
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.CoreCompileInputs.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.CopyComplete
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/obj/Debug/netcoreapp3.1/Dominio.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Dominio/obj/Debug/netcoreapp3.1/Dominio.pdb

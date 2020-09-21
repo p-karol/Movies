@@ -1,0 +1,9 @@
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/bin/Debug/netcoreapp3.1/Entidades.deps.json
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/bin/Debug/netcoreapp3.1/Entidades.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/bin/Debug/netcoreapp3.1/Entidades.pdb
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/obj/Debug/netcoreapp3.1/Entidades.AssemblyInfoInputs.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/obj/Debug/netcoreapp3.1/Entidades.AssemblyInfo.cs
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/obj/Debug/netcoreapp3.1/Entidades.csproj.CoreCompileInputs.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/obj/Debug/netcoreapp3.1/Entidades.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/obj/Debug/netcoreapp3.1/Entidades.pdb
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Entidades/obj/Debug/netcoreapp3.1/Entidades.csprojAssemblyReference.cache

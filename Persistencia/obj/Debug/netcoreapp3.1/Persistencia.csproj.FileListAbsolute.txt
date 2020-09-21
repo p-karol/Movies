@@ -1,0 +1,15 @@
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/bin/Debug/netcoreapp3.1/Persistencia.deps.json
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/bin/Debug/netcoreapp3.1/Persistencia.runtimeconfig.json
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/bin/Debug/netcoreapp3.1/Persistencia.runtimeconfig.dev.json
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/bin/Debug/netcoreapp3.1/Persistencia.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/bin/Debug/netcoreapp3.1/Persistencia.pdb
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/bin/Debug/netcoreapp3.1/Entidades.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/bin/Debug/netcoreapp3.1/Entidades.pdb
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/obj/Debug/netcoreapp3.1/Persistencia.csprojAssemblyReference.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/obj/Debug/netcoreapp3.1/Persistencia.AssemblyInfoInputs.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/obj/Debug/netcoreapp3.1/Persistencia.AssemblyInfo.cs
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/obj/Debug/netcoreapp3.1/Persistencia.csproj.CoreCompileInputs.cache
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/obj/Debug/netcoreapp3.1/Persistencia.csproj.CopyComplete
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/obj/Debug/netcoreapp3.1/Persistencia.dll
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/obj/Debug/netcoreapp3.1/Persistencia.pdb
+/Users/jbredow/Documents/Priscilla/SwAplicado/MoviesSln/Persistencia/obj/Debug/netcoreapp3.1/Persistencia.genruntimeconfig.cache
