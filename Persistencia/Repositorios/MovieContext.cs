@@ -22,7 +22,7 @@ namespace Persistencia.Repositorios
         {
             if (!optionsBuilder.IsConfigured)
             {
-                //5wAplicPiMovies
+                //optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=MoviesDB;Trusted_Connection=True;");
                 optionsBuilder.UseSqlServer(@"Server=localhost;Database=MoviesDB;User ID=sa;Password=5wAplicPiMovies;");
                 base.OnConfiguring(optionsBuilder);
             }
