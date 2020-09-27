@@ -116,13 +116,13 @@ namespace Persistencia.Migrations
             modelBuilder.Entity("Entidades.Model.ActorMovie", b =>
                 {
                     b.HasOne("Entidades.Model.Actor", "Actors")
-                        .WithMany()
+                        .WithMany("ActorMovies")
                         .HasForeignKey("ActorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Entidades.Model.Movie", "Movies")
-                        .WithMany()
+                        .WithMany("ActorMovies")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
