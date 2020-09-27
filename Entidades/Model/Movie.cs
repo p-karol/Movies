@@ -15,8 +15,5 @@ namespace Entidades.Model
         public double Rating { get; set; }
         public int GenreId { get; set; }
         public virtual Genre Genre { get; set; }
-
-        public virtual ICollection<ActorMovie> ActorMovies { get; set; }
-
     }
 }

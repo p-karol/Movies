@@ -13,7 +13,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <ProjectReference Include="..\Persistencia\Persistencia.csproj" />
-    <ProjectReference Include="..\Dominio\Dominio.csproj" />
   </ItemGroup>
 
 </Project>

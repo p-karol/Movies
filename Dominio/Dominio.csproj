@@ -8,7 +8,4 @@
     <ProjectReference Include="..\Persistencia\Persistencia.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Remove="FachadaMovies.cs" />
-  </ItemGroup>
 </Project>
