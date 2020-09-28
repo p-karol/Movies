@@ -16,11 +16,7 @@ namespace Persistencia.Repositorios
         public DbSet<Actor> Actors { get; set; }
         public DbSet<ActorMovie> ActorMovies { get; set; }
 
-
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=MoviesDB;Trusted_Connection=True;");
-        //}
+        //configuração para usar instancia local de SQL Server em localhost, no nosso caso rodando em um docker
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

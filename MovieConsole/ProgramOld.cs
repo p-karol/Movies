@@ -149,15 +149,15 @@ namespace MovieConsole
 
         Console.WriteLine();
         Console.WriteLine("Projeção do faturamento total, quantidade de filmes e avaliação média agrupadas por gênero:");
-        var q6 = from f in db.Movies
-                 group f by f.Genre.Name into grpGen
-                 select new
-                 {
-                     Categoria = grpGen.Key,
-                     Faturamento = grpGen.Sum(e => e.Gross),
-                     Avaliacao = grpGen.Average(e => e.Rating),
-                     Quantidade = grpGen.Count()
-                 };
+            var q6 = from f in db.Movies
+                     group f by f.Genre.Name into grpGen
+                     select new
+                     {
+                         Categoria = grpGen.Key,
+                         Faturamento = grpGen.Sum(e => e.Gross),
+                         Avaliacao = grpGen.Average(e => e.Rating),
+                         Quantidade = grpGen.Count()
+                     };
 
         foreach (var genero in q6)
         {

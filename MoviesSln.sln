@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docs", "_docs", "{9665D17D
 	ProjectSection(SolutionItems) = preProject
 		C:\Users\10032603\Downloads\MovieSol.jpeg = C:\Users\10032603\Downloads\MovieSol.jpeg
 		C:\Users\10032603\Downloads\MoviesSol.asta = C:\Users\10032603\Downloads\MoviesSol.asta
-		MovieContextModelSnapshot.cs = MovieContextModelSnapshot.cs
+		MovieContextModelSnapshotBKP.cs = MovieContextModelSnapshotBKP.cs
 	EndProjectSection
 EndProject
 Global

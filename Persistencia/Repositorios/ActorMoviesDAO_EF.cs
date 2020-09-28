@@ -14,13 +14,13 @@ using System.Threading.Tasks;
 
 namespace Persistencia.Repositorios
 {
-    //public class ActorMovieMoviesDAO_EF : IActorMovies, IDisposable
-    public class ActorMovieMoviesDAO_EF : IDisposable
+    public class ActorMoviesDAO_EF : IActorMovies, IDisposable
+    //public class ActorMovieMoviesDAO_EF : IDisposable
 
     {
         private MovieContext _context;
 
-        public ActorMovieMoviesDAO_EF()
+        public ActorMoviesDAO_EF()
         {
             _context = new MovieContext();
 

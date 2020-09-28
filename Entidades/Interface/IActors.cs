@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace Entidades.Interface
 {
-    public interface IGenres
+    public interface IActors
     {
-        Task Inserir(Genre genre);
-        Task<List<Genre>> List();
-        Task Delete(Genre genre);
-        Task<Genre> GetGenreById(int Id);
-        Task Update(Genre genre);
+        Task Inserir(Actor Actor);
+        Task<List<Actor>> List();
+        Task Delete(Actor Actor);
+        Task<Actor> GetActorById(int Id);
+        Task Update(Actor Actor);
 
-        Task<ICollection<GenreSummary>> getGenreSummary();
+        //Task<ICollection<ActorSummary>> getActorSummary();
     }
 }

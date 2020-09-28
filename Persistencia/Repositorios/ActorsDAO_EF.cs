@@ -14,8 +14,8 @@ using System.Threading.Tasks;
 
 namespace Persistencia.Repositorios
 {
-    //public class ActorsDAO_EF : IActors, IDisposable
-    public class ActorsDAO_EF : IDisposable
+    public class ActorsDAO_EF : IActors, IDisposable
+    //public class ActorsDAO_EF : IDisposable
 
     {
         private MovieContext _context;

@@ -13,6 +13,8 @@ namespace Dominio
     {
         IGenres genreDB = new GenresDAO_EF();
         IMovies moviesDB = new MoviesDAO_EF();
+        IActors actorDB = new ActorsDAO_EF();
+        IActorMovies actorsMoviesDB = new ActorMoviesDAO_EF();
 
         public async Task<ICollection<GenreSummary>> getRelatorioGeneros()
         {
@@ -23,5 +25,7 @@ namespace Dominio
         {
             return await moviesDB.List();
         }
+
+
     }
 }
