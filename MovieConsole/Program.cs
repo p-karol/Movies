@@ -107,31 +107,22 @@ namespace MovieConsole
                 Console.WriteLine();
                 Console.WriteLine("5) Mostrar o nome de todos os gêneros que um determinado ator atuou(e o número de filmes neste gênero)");
 
-                var generos = from a in db.ActorMovies
-                             where a.Actors.Name == "Daniel Craig"
-                             group a by a.Movies.Genre.Name into grpGen
-                             select new
-                             {
-                                 Genero = grpGen.Key,
-                                 Quantidade = grpGen.Count()
-                              
-                                 
-                             }
+
+
+                var teste = from a in db.ActorMovies
+                        where a.Actors.Name == "Daniel Craig"
+                        group a by a.Movies.Genre.Name into grpGen
+                        select new
+                        {
+                            Genero = grpGen.Key,
+                            Quantidade = grpGen.Count()
+                        }
                      ;
 
-            foreach (var g in generos)
-            {
-                Console.WriteLine("\t{0} em {1} oportunidades.", g.Genero, g.Quantidade);
-            }
-
-
-
-
-
-
-
-
-
+                    foreach (var t in teste)
+                    {
+                        Console.WriteLine("\t{0} em {1} oportunidades com filmes.", t.Genero, t.Quantidade);
+                    }
 
         }
 
