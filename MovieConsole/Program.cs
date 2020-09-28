@@ -45,7 +45,7 @@ namespace MovieConsole
 
                 //Questao 1
                 Console.WriteLine();
-                Console.WriteLine("Listar o elenco do um determinado filme (Jurassic Park): ");
+                Console.WriteLine("1) Listar o elenco do um determinado filme (Jurassic Park): ");
 
                 var actorsJurassic = db.ActorMovies.Where(m => m.Movies.Title == "Jurassic Park").Select(m => m.Actors);
                 
@@ -56,7 +56,7 @@ namespace MovieConsole
 
                 //Questao 2
                 Console.WriteLine();
-                Console.WriteLine("Listar todos os atores que já desempenharam o personagem “James Bond”?) ");
+                Console.WriteLine("2) Listar todos os atores que já desempenharam o personagem “James Bond”?) ");
 
                 //var actorsJamesBond = db.ActorMovies.Where(a => a.Character == "James Bond").Select(a => a.Actors);
                 var actorsJamesBond = db.ActorMovies
@@ -73,7 +73,7 @@ namespace MovieConsole
 
                 //Questao 3
                 Console.WriteLine();
-                Console.WriteLine("Informar qual o ator desempenhou mais vezes o personagem “James Bond”?) ");
+                Console.WriteLine("3) Informar qual o ator desempenhou mais vezes o personagem “James Bond”?) ");
 
                 var realJameBond = from c in db.ActorMovies
                                    where c.Character == "James Bond"
@@ -88,6 +88,19 @@ namespace MovieConsole
                 foreach (var actor in realJameBond)
                 {
                     Console.WriteLine("\t{0} em {1} oportunidades.", actor.Ator, actor.Quantidade);
+                }
+
+                //Questao 4
+                Console.WriteLine();
+                Console.WriteLine("4) Mostrar o nome de todos os filmes do ator Judi Dench ");
+
+                var moviesJudi =    from f in db.ActorMovies
+                                where  f.Actors.Name == "Judi Dench"
+                                select f.Movies.Title;
+
+                foreach (String f in moviesJudi)
+                {
+                    Console.WriteLine("\t{0}", f);
                 }
 
 
